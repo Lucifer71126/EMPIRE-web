@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root,
+.empire-light {
+  --bg: #f8f5ef;
+  --bg-soft: #ffffff;
+  --bg-muted: #f1ebe0;
+  --text: #1d1a16;
+  --text-muted: #6b6255;
+  --gold: #b8872e;
+  --gold-soft: #c9a45c;
+  --gold-dark: #8a641f;
+  --border: rgba(184, 135, 46, 0.2);
+  --card: rgba(255, 255, 255, 0.78);
+  --shadow: rgba(40, 32, 18, 0.12);
+}
+
+.empire-dark {
+  --bg: #07111f;
+  --bg-soft: #0b1020;
+  --bg-muted: #111a2b;
+  --text: #f8f4ea;
+  --text-muted: #cfc5ad;
+  --gold: #c89b3c;
+  --gold-soft: #d6b56d;
+  --gold-dark: #a87924;
+  --border: rgba(214, 181, 109, 0.24);
+  --card: rgba(12, 18, 32, 0.78);
+  --shadow: rgba(0, 0, 0, 0.34);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(200, 155, 60, 0.14), transparent 32rem),
+    linear-gradient(180deg, var(--bg), var(--bg-soft));
+  color: var(--text);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
+  transition: background-color 280ms ease, color 280ms ease;
+}
+
+body::selection {
+  background: var(--gold);
+  color: #fff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-10;
+}
+
+.eyebrow {
+  color: var(--gold);
+  @apply text-xs font-semibold uppercase tracking-[0.22em];
+}
+
+.section-title {
+  @apply mt-3 text-3xl font-semibold leading-tight sm:text-4xl lg:text-5xl;
+}
+
+.section-copy {
+  color: var(--text-muted);
+  @apply mt-4 max-w-3xl text-base leading-8 sm:text-lg;
+}
+
+.glass-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  box-shadow: 0 18px 70px var(--shadow);
+  backdrop-filter: blur(18px);
+}
+
+.gold-line {
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+
+.theme-transition,
+.theme-transition * {
+  transition:
+    background-color 280ms ease,
+    border-color 280ms ease,
+    color 280ms ease,
+    box-shadow 280ms ease;
+}
+
+.visual-editing {
+  outline: 1px dashed var(--gold);
+  outline-offset: 4px;
+  cursor: text;
+}
