@@ -1,0 +1,14 @@
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="320" fill="transparent"/>
+  <circle cx="160" cy="160" r="106" stroke="#C89B3C" stroke-width="7"/>
+  <circle cx="160" cy="160" r="86" stroke="#D6B56D" stroke-width="2" stroke-dasharray="4 8"/>
+  <path d="M160 48l18 34 38 6-28 27 7 38-35-18-35 18 7-38-28-27 38-6 18-34Z" fill="#C89B3C"/>
+  <path d="M73 144c-24-3-43-12-58-27 23 4 44 2 63-7l22-11c-6 16-15 31-27 45Z" fill="#B8872E"/>
+  <path d="M247 144c24-3 43-12 58-27-23 4-44 2-63-7l-22-11c6 16 15 31 27 45Z" fill="#B8872E"/>
+  <path d="M84 181c-19 1-36-4-51-16 19-2 36-8 51-18l27-18c-4 19-13 36-27 52Z" fill="#D6B56D"/>
+  <path d="M236 181c19 1 36-4 51-16-19-2-36-8-51-18l-27-18c4 19 13 36 27 52Z" fill="#D6B56D"/>
+  <path d="M110 213h100" stroke="#C89B3C" stroke-width="6" stroke-linecap="round"/>
+  <path d="M122 229h76" stroke="#D6B56D" stroke-width="3" stroke-linecap="round"/>
+  <text x="160" y="190" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="86" font-weight="700" fill="#C89B3C">E</text>
+  <text x="160" y="258" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" letter-spacing="5" fill="#C89B3C">EMPIRE</text>
+</svg>
